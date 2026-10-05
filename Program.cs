@@ -40,9 +40,17 @@ namespace ArenaRPG
             Sacerdote sanador = new Sacerdote();
             sanador.CurarAliado(); // Proviene de ICurador (creada por el estudiante 4)
             */
+            int opcion = 0;
 
-            Console.WriteLine("\nPresiona ENTER para salir...");
-            Console.ReadLine();
+            do
+            {
+                Console.WriteLine("\nPresiona 1 para salir...");
+                opcion= Convert.ToInt32(Console.ReadLine());
+
+            
+            while (opcion != 1); 
+
+            
         }
     }
 }
