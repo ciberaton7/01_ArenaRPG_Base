@@ -19,7 +19,7 @@ namespace ArenaRPG
             // Docente: Una vez que los estudiantes hagan sus Pull Requests y los apruebes, 
             // descomenta el código de abajo para demostrar que sus clases funcionan en conjunto.
 
-            /*
+            /* 
             Console.WriteLine("--- INICIA LA BATALLA ---");
             
             // Prueba del Estudiante 1: (Clase Jukumari)
